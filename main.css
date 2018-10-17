@@ -1,3 +1,13 @@
+#layout{
+    background: url(showcase.jpg);
+    min-height: 300px;
+}
+#wrap{
+    background: yellow;
+}
+#home{
+    background: Orange;
+}
 table {
     text-align: center;
 }
