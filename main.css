@@ -3,6 +3,7 @@ html {
   background-color: white;
   font-family: "Montserrat", sans-serif;
 }
+
 header {
   width: 100%;
   top: 0;
@@ -10,6 +11,7 @@ header {
   position: fixed;
   z-index: 2;
 }
+
 .navigation {
   overflow: hidden;
   background-color: rgb(151, 36, 36);
@@ -21,6 +23,7 @@ nav {
   text-align: center;
   padding-right: 2rem;
 }
+
 nav a {
   text-align: center;
   margin-top: 13px;
@@ -31,10 +34,12 @@ nav a {
   float: left;
   display: block;
 }
+
 nav a:hover {
   background-color: black;
   color: white;
 }
+
 .logo img {
   padding-right: 40px;
   padding-bottom: 17px;
@@ -53,23 +58,27 @@ nav a:hover {
   padding-right: 20px;
   width: 100%;
 }
+
 .Opening2 {
   position: relative;
   text-align: center;
   background-color: rgba(82, 86, 87, 0.7);
   top: 0;
 }
+
 .Opening1 {
   bottom: 0;
   position: relative;
   text-align: center;
 }
+
 .Opening1 img {
   top: 20px;
   position: relative;
   height: 100%;
   width: 100%;
 }
+
 .Opening1 h1 {
   top: 45%;
   left: 50%;
@@ -84,14 +93,17 @@ nav a:hover {
 .row {
   width: 100%;
 }
+
 .row #column {
   width: 50%;
   float: left;
 }
+
 .column2 {
   float: right;
   width: 40%;
 }
+
 input[type="text"],
 select,
 textarea {
@@ -102,6 +114,7 @@ textarea {
   box-sizing: border-box;
   resize: vertical;
 }
+
 input[type="email"] {
   width: 60%;
   padding: 12px;
@@ -119,6 +132,7 @@ footer {
   background-color: rgb(151, 36, 36);
   height: 25px;
 }
+
 footer p {
   color: black;
   padding-top: 2px;
