@@ -108,12 +108,46 @@ nav a.active {
 
 }
 
+.row {
+  width: 100%;
+}
 
-/*Footer*/
-p {
-  color:rgb(151, 36, 36);
-  /* padding-bottom: 5px; */
-  /* margin:auto; */
-  margin: 0 auto;
-  margin-left: 5px
+.row #column {
+  width: 50%;
+  float:left;
+}
+<<<<<<< HEAD
+
+.column2 {
+  float:right;
+  width: 40%;
+}
+
+footer {
+  clear:left;
+  background-color: rgb(151, 36, 36);
+  height:100px;
+}
+footer p {
+  color:black;
+  padding-bottom: 5px;
+  margin: 50 5 10 5;
+  text-align: center;
+}
+
+input[type=text], select, textarea{
+  width: 60%;
+  padding: 12px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+input[type=email] {
+  width: 60%;
+  padding: 12px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
 }
