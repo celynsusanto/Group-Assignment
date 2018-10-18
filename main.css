@@ -98,6 +98,7 @@ nav a:hover {
   padding-left: 50px;
   padding-right: 50px;
   padding-top: 40px;
+  font-size: 16px;
   text-align: justify;
 }
 
@@ -110,8 +111,28 @@ nav a:hover {
 /*ABOUT--END*/
 
 /* CONTACT--START */
+.containerContact {
+  position: relative;
+}
+
+.text-blockContact {
+  position: absolute;
+  top:80px;
+  bottom: 20px;
+  right: 20px;
+  left:20px;
+  background-color: rgba(0, 0, 0, 0.582);
+  color: white;
+  padding-left: 200px;
+  padding-right: 50px;
+  padding-top: 150px;
+  font-size: 16px;
+  text-align: justify;
+}
+
 .row {
   width: 100%;
+  
 }
 
 .row #column {
