@@ -1,7 +1,51 @@
+html,
 body {
-  font-family: "Helvetica";
+  background-color: white;
+  font-family: "Montserrat", sans-serif;
 }
 
+/* HEADER--START */
+header {
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 2;
+}
+.navigation {
+  overflow: hidden;
+  background-color: rgb(151, 36, 36);
+  width: 100%;
+}
+nav {
+  display: inline;
+  text-align: center;
+  padding-right: 2rem;
+}
+nav a {
+  text-align: center;
+  margin-top: 13px;
+  padding: 10px 30px;
+  text-decoration: none;
+  font-size: 17px;
+  color: white;
+  float: left;
+  display: block;
+}
+nav a:hover {
+  background-color: black;
+  color: white;
+}
+.logo img {
+  padding-right: 40px;
+  padding-bottom: 17px;
+  float: right;
+  width: 80px;
+  height: 30px;
+}
+/* HEADER--END */
+
+/* PRODUCT--START */
 a:link {
   text-decoration: none;
   color: black;
@@ -14,7 +58,6 @@ a:visited {
 a:hover {
   color: orange;
 }
-
 #pwd {
   background-color: #eef1ea;
   width: 1fr;
@@ -108,4 +151,19 @@ a:hover {
 .brangkas {
   height: 100px;
   width: 100px;
+}
+/* PRODUCT--END */
+
+/*FOOTER*/
+footer {
+  top: 0px;
+  clear: left;
+  background-color: rgb(151, 36, 36);
+  height: 25px;
+  z-index: 1;
+}
+footer p {
+  color: black;
+  padding-top: 2px;
+  text-align: center;
 }
