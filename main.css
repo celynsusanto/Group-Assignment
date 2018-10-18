@@ -1,5 +1,5 @@
 html, body{
-  background-color: rgba(239, 242, 243, 0.993);
+  background-color:black;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -73,31 +73,39 @@ nav li a.active {
 
 .centered {
   position: absolute;
-  top: 50%;
-  left: 50%;
   transform: translate(-50%, -50%);
-  background-color: rgba(0, 0, 0, 0.301);
   color: white;
   padding-left: 20px;
   padding-right: 20px;
   width: 100%;
 }
-.Opening2 h2 {
+
+.Opening2{
   position: relative;
   text-align: center;
-  background-color: rgb(103, 106, 107, 70%);
-  top:0
+  background-color: rgba(82, 86, 87, 0.7);
+  top:0;
+  
 }
 .Opening1 {
- 
   bottom:0;
   position: relative;
   text-align: center;
-  color: white;
 }
 .Opening1 img {
-  height: 500px;
+  position: relative;
+  height: 100%;
   width: 100%;
+
+}
+.Opening1 h1{
+  top: 45%;
+  left: 50%;
+  font-size: 50px;
+  background-color: rgba(0, 0, 0, 60%);
+  color: white;
+  font-weight: bold;
+
 }
 
 /*Content*/
@@ -129,14 +137,12 @@ tr:hover {
 }
 
 /*Footer*/
-footer {
-  background-color: transparent;
+p {
   font-weight: bold;
-  color: black;
+  color: white;
   /* padding-bottom: 5px; */
+  /* margin:auto; */
+  margin: 0 auto;
+  margin-left: 20px
+}
 
-}
-footer p {
-  padding-top: 20px;
-  padding-left: 20px;
-}
