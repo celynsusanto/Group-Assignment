@@ -1,0 +1,18 @@
+.kotak{
+    height: 400;
+    background-color: aqua;
+    margin: 100px 20px 0 20px;
+    border: solid 2px;
+    border-radius: 5px;
+    text-align: center;
+}
+p{
+    font-size: 35px;
+    margin: 80px 80px 0 80px;
+    text-transform: capitalize;
+}
+img {
+    width:150px;
+    height:120px;
+    margin-top: 50px;
+}

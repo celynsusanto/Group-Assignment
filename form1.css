@@ -50,17 +50,8 @@ input[type=text], select, textarea{
     box-sizing: border-box;
     resize: vertical;
 }
-#select {
-    width: 220px;
-    padding: 10px;
-    margin: 5px 0 15px 0;
-    border: none;
-    background: #f1f1f1;
-}
-.checkbox {
-    margin: 0 0 15px 0; 
-    border: none;
-}
+
+
 input[type=submit] {
     background-color: #4CAF50;
     color: white;
