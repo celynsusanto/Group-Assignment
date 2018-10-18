@@ -59,13 +59,6 @@ nav a:hover {
   width: 100%;
 }
 
-.Opening2 {
-  position: relative;
-  text-align: center;
-  background-color: rgba(82, 86, 87, 0.7);
-  top: 0;
-}
-
 .Opening1 {
   bottom: 0;
   position: relative;
@@ -88,6 +81,33 @@ nav a:hover {
   font-weight: bold;
 }
 /* HOME--END */
+
+/* ABOUT--START */
+.container {
+  position: relative;
+}
+
+.text-block {
+  position: absolute;
+  top:80px;
+  bottom: 20px;
+  right: 20px;
+  left:20px;
+  background-color: rgba(0, 0, 0, 0.507);
+  color: white;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 40px;
+  text-align: justify;
+}
+
+.text-block h2 {
+  text-align: center;
+}
+.text-block .achievement {
+  text-align: center;
+}
+/*ABOUT--END*/
 
 /* CONTACT--START */
 .row {
@@ -134,7 +154,7 @@ footer {
 }
 
 footer p {
-  color: black;
+  color: white;
   padding-top: 2px;
   text-align: center;
 }
