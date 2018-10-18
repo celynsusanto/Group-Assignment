@@ -1,10 +1,8 @@
-html,
-body {
+/* DEFAULT--START */
+html {
   background-color: white;
   font-family: "Montserrat", sans-serif;
 }
-
-/* HEADER--START */
 header {
   width: 100%;
   top: 0;
@@ -17,6 +15,7 @@ header {
   background-color: rgb(151, 36, 36);
   width: 100%;
 }
+
 nav {
   display: inline;
   text-align: center;
@@ -28,7 +27,7 @@ nav a {
   padding: 10px 30px;
   text-decoration: none;
   font-size: 17px;
-  color: white;
+  color: black;
   float: left;
   display: block;
 }
@@ -43,7 +42,7 @@ nav a:hover {
   width: 80px;
   height: 30px;
 }
-/* HEADER--END */
+/* DEFAULT--END */
 
 /* PRODUCT--START */
 a:link {
