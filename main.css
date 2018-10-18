@@ -1,13 +1,15 @@
-html, body{
-  background-color:white;
-  font-family: 'Montserrat', sans-serif;
+html,
+body {
+  background-color: white;
+  font-family: "Montserrat", sans-serif;
+
 }
 
 /*Top Page*/
 header {
   width: 100%;
   top: 0;
-  left:0;
+  left: 0;
   /* margin: 0 auto; */
   position: fixed;
   z-index: 2;
@@ -15,9 +17,8 @@ header {
 }
 .navigation {
   overflow: hidden;
-  background-color: rgb(151, 36, 36);	
+  background-color: rgb(151, 36, 36);
   width: 100%;
-
 }
 /* .navigation .logo {
   overflow: hidden;
@@ -25,9 +26,9 @@ header {
   width: 250px;
   height: 150x;
   /* display: inline; */
-  /* margin-bottom: -25px;
-} */ 
-nav  {
+/* margin-bottom: -25px;
+} */
+nav {
   display: inline;
   text-align: center;
   /* margin-left: 20px; */
@@ -39,7 +40,7 @@ nav a {
   padding: 10px 30px;
   text-decoration: none;
   font-size: 17px;
-  color:white;
+  color: white;
   float: left;
   display: block;
 }
@@ -49,15 +50,15 @@ nav a:hover {
 }
 nav a.active {
   background-color: #2196f3;
-  color: white
+  color: white;
 }
-.login-container img{
+.login-container img {
   /* display: inline; */
-  padding-right:40px;
+  padding-right: 40px;
   padding-bottom: 17px;
   float: right;
   width: 80px;
-  height:30px;
+  height: 30px;
 }
 /* .navigation a{
   text-decoration: none;
@@ -69,7 +70,6 @@ nav a.active {
   margin-top: 50px;
 } */
 
-
 .centered {
   position: absolute;
   transform: translate(-50%, -50%);
@@ -79,15 +79,14 @@ nav a.active {
   width: 100%;
 }
 
-.Opening2{
+.Opening2 {
   position: relative;
   text-align: center;
   background-color: rgba(82, 86, 87, 0.7);
-  top:0;
-  
+  top: 0;
 }
 .Opening1 {
-  bottom:0;
+  bottom: 0;
   position: relative;
   text-align: center;
 }
@@ -95,26 +94,20 @@ nav a.active {
   position: relative;
   height: 100%;
   width: 100%;
-  
-
 }
-.Opening1 h1{
+.Opening1 h1 {
   top: 45%;
   left: 50%;
   font-size: 50px;
   background-color: rgba(0, 0, 0, 60%);
   color: white;
   font-weight: bold;
-
 }
-
 
 /*Footer*/
 p {
-  color:rgb(151, 36, 36);
+  color: rgb(151, 36, 36);
   /* padding-bottom: 5px; */
   /* margin:auto; */
-  margin: 0 auto;
-  margin-left: 5px
+ margin:auto;
 }
-
