@@ -1,0 +1,27 @@
+/*Content*/
+table {
+    width: 80%;
+    max-width: 90%;
+    border-spacing: 0.5rem;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: rgb(9, 190, 245, 50%);
+    margin-left: 10%;
+  }
+  th,
+  td {
+    padding: 15px;
+    text-align: center;
+    font-size: 15px;
+    border-bottom: 1px solid grey;
+    letter-spacing: 0.8px;
+  }
+  th {
+    height: 20px;
+    font-weight: 500;
+    background-color: hsl(241, 43%, 46%);
+  }
+  
+  tr:hover {
+    background-color: white;
+  }

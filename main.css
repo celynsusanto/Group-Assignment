@@ -1,5 +1,5 @@
 html, body{
-  background-color:black;
+  background-color:rgb(156, 29, 29);
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -14,7 +14,7 @@ header {
 }
 .navigation {
   overflow: hidden;
-  background-color: black;
+  background-color: rgb(151, 36, 36);	;
 }
 /* .navigation .logo {
   overflow: hidden;
@@ -40,22 +40,32 @@ nav a {
   display: block;
 }
 nav a:hover {
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: white;
 }
 nav a.active {
-  background-color: white;
-  color: #2196f3;
+  background-color: #2196f3;
+  color: white
 }
 .navigation .login-container {
   float: right;
 }
+/* .navigation a{
+  text-decoration: none;
+  color: white;
+} */
+/* .login-container a:hover{
+  background-color: white;
+  color: black;
+  margin-top: 50px;
+} */
+
 .navigation input[type="text"] {
   padding: 6px;
   margin-top: 8px;
   font-size: 17px;
   border: none;
-  width: 150px; /* adjust as needed (as long as it doesn't break the topnav) */
+  width: 200px; /* adjust as needed (as long as it doesn't break the topnav) */
 }
 .navigation .login-container button {
   float: right;
@@ -66,6 +76,7 @@ nav a.active {
   font-size: 17px;
   border: none;
   cursor: pointer;
+
 }
 .navigation .login-container button:hover {
   background: #ccc;
@@ -108,41 +119,13 @@ nav a.active {
 
 }
 
-/*Content*/
-table {
-  width: 80%;
-  max-width: 90%;
-  border-spacing: 0.5rem;
-  border-collapse: collapse;
-  text-align: center;
-  background-color: rgb(9, 190, 245, 50%);
-  margin-left: 10%;
-}
-th,
-td {
-  padding: 15px;
-  text-align: center;
-  font-size: 15px;
-  border-bottom: 1px solid grey;
-  letter-spacing: 0.8px;
-}
-th {
-  height: 20px;
-  font-weight: 500;
-  background-color: hsl(241, 43%, 46%);
-}
-
-tr:hover {
-  background-color: white;
-}
 
 /*Footer*/
 p {
-  font-weight: bold;
   color: white;
   /* padding-bottom: 5px; */
   /* margin:auto; */
   margin: 0 auto;
-  margin-left: 20px
+  margin-left: 5px
 }
 
