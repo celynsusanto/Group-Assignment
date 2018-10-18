@@ -1,5 +1,5 @@
 html, body{
-  background-color:rgb(156, 29, 29);
+  background-color:white;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -7,14 +7,17 @@ html, body{
 header {
   width: 100%;
   top: 0;
-  margin: 0 auto;
+  left:0;
+  /* margin: 0 auto; */
   position: fixed;
   z-index: 2;
-  text-align: center;
+  /* text-align: center; */
 }
 .navigation {
   overflow: hidden;
-  background-color: rgb(151, 36, 36);	;
+  background-color: rgb(151, 36, 36);	
+  width: 100%;
+
 }
 /* .navigation .logo {
   overflow: hidden;
@@ -33,7 +36,7 @@ nav  {
 nav a {
   text-align: center;
   margin-top: 13px;
-  padding: 10px 16px;
+  padding: 10px 30px;
   text-decoration: none;
   font-size: 17px;
   color:white;
@@ -66,27 +69,6 @@ nav a.active {
   margin-top: 50px;
 } */
 
-.navigation input[type="text"] {
-  padding: 6px;
-  margin-top: 8px;
-  font-size: 17px;
-  border: none;
-  width: 200px; /* adjust as needed (as long as it doesn't break the topnav) */
-}
-.navigation .login-container button {
-  float: right;
-  padding: 6px;
-  margin-top: 8px;
-  margin-right: 16px;
-  background: #ddd;
-  font-size: 17px;
-  border: none;
-  cursor: pointer;
-
-}
-.navigation .login-container button:hover {
-  background: #ccc;
-}
 
 .centered {
   position: absolute;
@@ -113,6 +95,7 @@ nav a.active {
   position: relative;
   height: 100%;
   width: 100%;
+  
 
 }
 .Opening1 h1{
@@ -128,7 +111,7 @@ nav a.active {
 
 /*Footer*/
 p {
-  color: white;
+  color:rgb(151, 36, 36);
   /* padding-bottom: 5px; */
   /* margin:auto; */
   margin: 0 auto;
