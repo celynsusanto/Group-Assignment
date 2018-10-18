@@ -32,7 +32,8 @@ nav  {
 }
 nav a {
   text-align: center;
-  padding: 14px 16px;
+  margin-top: 13px;
+  padding: 10px 16px;
   text-decoration: none;
   font-size: 17px;
   color:white;
@@ -47,8 +48,13 @@ nav a.active {
   background-color: #2196f3;
   color: white
 }
-.navigation .login-container {
+.login-container img{
+  /* display: inline; */
+  padding-right:40px;
+  padding-bottom: 17px;
   float: right;
+  width: 80px;
+  height:30px;
 }
 /* .navigation a{
   text-decoration: none;
