@@ -7,12 +7,12 @@
     </head>
     <body>
         <section id="page">
-            <div class="header">
-            <h1>Aplication Form
-            </h1>
-            </div>
-            <div class="wrap">
-                <form id="form">
+            <header>
+                <h1>Form Pengajuan Online</h1>
+                <p>Bank Djali Indonesia</p>
+            </header>
+            <div class="container">
+                <form id="form" action="welcome.html">
                 <label>Nama Lengkap</label><br>
                 <input type="text" class="kotak"><br>
                 <label>Email</label><br>
@@ -29,12 +29,16 @@
                     </optgroup>
                 </select><br>
                 <label>Jenis Penghasilan</label><br>
-                <input type="checkbox" name="penghasilan" >Karyawan<br>
-                <input type="checkbox" name="penghasilan">Wirausaha<br>
-                <input type="checkbox" name="penghasilan">Lain-Lain<br>
+                <select>
+                    <option>Karyawan</option>
+                    <option>Wirausaha</option>
+                    <option>Lain-Lain</option>
+                </select>
                 <label>Gender</label><br>
-                <input type="radio" name="gender">Pria<br>
-                <input type="radio" name="gender">Wanita<br>
+                <select>
+                    <option>Pria</option>
+                    <option>Wanita</option>
+                </select>
                 <label>Nilai Plafon Pengajuan</label><br>
                 <input type="text" class="kotak"><br>
                 <label>Alamat Tempat Tinggal</label><br>
