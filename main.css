@@ -117,15 +117,15 @@ nav a:hover {
 
 .text-blockContact {
   position: absolute;
-  top:80px;
-  bottom: 20px;
-  right: 20px;
-  left:20px;
+  top:140px;
+  bottom: 80px;
+  right: 180px;
+  left:180px;
   background-color: rgba(0, 0, 0, 0.582);
   color: white;
-  padding-left: 300px;
+  padding-left: 180px;
   padding-right: 50px;
-  padding-top: 180px;
+  padding-top: 120px;
   font-size: 16px;
   text-align: justify;
 }

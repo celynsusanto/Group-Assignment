@@ -30,14 +30,14 @@ nav a {
   padding: 10px 30px;
   text-decoration: none;
   font-size: 17px;
-  color: black;
+  color: white;
   float: left;
   display: block;
 }
 
 nav a:hover {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
 }
 
 .logo img {
