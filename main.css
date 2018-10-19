@@ -1,75 +1,55 @@
-html, body{
-  background-color:white;
-  font-family: 'Montserrat', sans-serif;
+/* DEFAULT--START */
+html {
+  background-color: white;
+  font-family: "Montserrat", sans-serif;
 }
 
-/*Top Page*/
 header {
   width: 100%;
   top: 0;
-  left:0;
-  /* margin: 0 auto; */
+  left: 0;
   position: fixed;
   z-index: 2;
-  /* text-align: center; */
 }
+
 .navigation {
   overflow: hidden;
-  background-color: rgb(151, 36, 36);	
+  background-color: rgb(151, 36, 36);
   width: 100%;
-
 }
-/* .navigation .logo {
-  overflow: hidden;
-  background-color: #e9e9e9;
-  width: 250px;
-  height: 150x;
-  /* display: inline; */
-  /* margin-bottom: -25px;
-} */ 
-nav  {
+
+nav {
   display: inline;
   text-align: center;
-  /* margin-left: 20px; */
   padding-right: 2rem;
 }
+
 nav a {
   text-align: center;
   margin-top: 13px;
   padding: 10px 30px;
   text-decoration: none;
   font-size: 17px;
-  color:white;
+  color: white;
   float: left;
   display: block;
 }
+
 nav a:hover {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
 }
-nav a.active {
-  background-color: #2196f3;
-  color: white
-}
-.login-container img{
-  /* display: inline; */
-  padding-right:40px;
+
+.logo img {
+  padding-right: 40px;
   padding-bottom: 17px;
   float: right;
   width: 80px;
-  height:30px;
+  height: 30px;
 }
-/* .navigation a{
-  text-decoration: none;
-  color: white;
-} */
-/* .login-container a:hover{
-  background-color: white;
-  color: black;
-  margin-top: 50px;
-} */
+/* DEFAULT--END */
 
-
+/*HOME--START*/
 .centered {
   position: absolute;
   transform: translate(-50%, -50%);
@@ -79,63 +59,104 @@ nav a.active {
   width: 100%;
 }
 
-.Opening2{
-  position: relative;
-  text-align: center;
-  background-color: rgba(82, 86, 87, 0.7);
-  top:0;
-  
-}
 .Opening1 {
-  bottom:0;
+  bottom: 0;
   position: relative;
   text-align: center;
 }
+
 .Opening1 img {
+  top: 20px;
   position: relative;
   height: 100%;
   width: 100%;
-  
-
 }
-.Opening1 h1{
+
+.Opening1 h1 {
   top: 45%;
   left: 50%;
   font-size: 50px;
-  background-color: rgba(0, 0, 0, 60%);
+  background-color: rgba(0, 0, 0, 0.507);
   color: white;
   font-weight: bold;
+}
+/* HOME--END */
 
+/* ABOUT--START */
+.container {
+  position: relative;
+}
+
+.text-block {
+  position: absolute;
+  top:80px;
+  bottom: 20px;
+  right: 20px;
+  left:20px;
+  background-color: rgba(0, 0, 0, 0.507);
+  color: white;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 40px;
+  font-size: 16px;
+  text-align: justify;
+}
+
+.text-block h2 {
+  text-align: center;
+}
+.text-block .achievement {
+  text-align: center;
+}
+/*ABOUT--END*/
+
+/* CONTACT--START */
+.containerContact {
+  position: relative;
+}
+
+.text-blockContact {
+  position: absolute;
+  top:140px;
+  bottom: 80px;
+  right: 180px;
+  left:180px;
+  background-color: rgba(0, 0, 0, 0.582);
+  color: white;
+  padding-left: 180px;
+  padding-right: 50px;
+  padding-top: 120px;
+  font-size: 16px;
+  text-align: justify;
 }
 
 .row {
   width: 100%;
+  
 }
 
 .row #column {
   width: 50%;
-  float:left;
+  float: left;
 }
-<<<<<<< HEAD
 
 .column2 {
-  float:right;
+  float: right;
   width: 40%;
 }
 
-footer {
-  clear:left;
-  background-color: rgb(151, 36, 36);
-  height:100px;
-}
-footer p {
-  color:black;
-  padding-bottom: 5px;
-  margin: 50 5 10 5;
-  text-align: center;
+input[type="text"],
+select,
+textarea {
+  width: 60%;
+  padding: 12px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
 }
 
-input[type=text], select, textarea{
+input[type="email"] {
   width: 60%;
   padding: 12px;
   border: 2px solid #ccc;
@@ -143,11 +164,18 @@ input[type=text], select, textarea{
   box-sizing: border-box;
   resize: vertical;
 }
-input[type=email] {
-  width: 60%;
-  padding: 12px;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  resize: vertical;
+/* CONTACT--END */
+
+/*FOOTER*/
+footer {
+  top: 0px;
+  clear: left;
+  background-color: rgb(151, 36, 36);
+  height: 25px;
+}
+
+footer p {
+  color: white;
+  padding-top: 2px;
+  text-align: center;
 }

@@ -1,18 +1,85 @@
-.kotak{
-    height: 400;
-    background-color: aqua;
-    margin: 100px 20px 0 20px;
-    border: solid 2px;
-    border-radius: 5px;
-    text-align: center;
+/* DEFAULT--START */
+html {
+  background-color: white;
+  font-family: "Montserrat", sans-serif;
 }
-p{
-    font-size: 35px;
-    margin: 80px 80px 0 80px;
-    text-transform: capitalize;
+
+header {
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 2;
 }
-img {
-    width:150px;
-    height:120px;
-    margin-top: 50px;
+
+.navigation {
+  overflow: hidden;
+  background-color: rgb(151, 36, 36);
+}
+
+nav {
+  display: inline;
+  text-align: center;
+  padding-right: 2rem;
+}
+
+nav a {
+  text-align: center;
+  margin-top: 13px;
+  padding: 10px 30px;
+  text-decoration: none;
+  font-size: 17px;
+  color: white;
+  float: left;
+  display: block;
+}
+
+nav a:hover {
+  background-color: white;
+  color: black;
+}
+
+.logo img {
+  padding-right: 40px;
+  padding-bottom: 17px;
+  float: right;
+  width: 80px;
+  height: 30px;
+}
+/* DEFAULT--END */
+
+/* MESSAGE--START */
+.message {
+  font-family: "Montserrat", sans-serif;
+}
+.containerMessage {
+  position: relative;
+  margin-top: 30px;
+  width: 100%;
+}
+
+.text-blockMessage {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  background-color: rgba(0, 0, 0, 0.582);
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  padding: 30px 30px;
+}
+/* MESSAGE--END */
+
+/*FOOTER*/
+footer {
+  top: 0px;
+  clear: left;
+  background-color: rgb(151, 36, 36);
+  height: 25px;
+}
+
+footer p {
+  color: white;
+  padding-top: 2px;
+  text-align: center;
 }
