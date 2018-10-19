@@ -69,15 +69,18 @@ button:hover{
     color: white;
 }
 
-footer {
+.footer {
   color: white;
   background-color: rgb(151, 36, 36);
   text-align: center;
+  margin-bottom: 0px;
+  padding-top: 10px ;
+  height: 100%;
 }
-footer h1 {
+.footer h1 {
   font-size: 16px;
 }
-footer h3 {
+.footer h3 {
   font-size: 14px;
 }
 /* FORM--END */
